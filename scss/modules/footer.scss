@@ -1,0 +1,45 @@
+.footer-logo{
+    height: 35px;
+    max-width: 265px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    @include small-and-above{
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+}
+.footer-color{
+    color: $footer-color;
+    i{
+        margin: 8px;
+    }
+}
+.footer-font{
+    font-size: 10px;
+}
+.footer-row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 90%;
+    @include small-and-above{
+        padding-bottom: 30px;
+        text-align: center;
+        line-height: 1px;
+    }
+}
+
+    @include small-and-above{
+        .address, .number, .icons{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+    }
+
+.number{
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+

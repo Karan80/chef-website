@@ -1,0 +1,83 @@
+/*Hero Modules*/
+
+.hero {
+    text-align: center;
+}
+.hero-primary {
+    background-color: #594a42;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    @include small-and-above{
+        padding-top: 150px;
+    }
+}
+.hero-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2.625em;
+    font-family: arial;
+    font-weight:bold;
+}
+.hero-subtitle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.500em;
+    font-weight: normal;
+    font-family: Arial;
+    line-height: 150%;
+}
+.hero-subtitle + button {
+    margin-top: 25px;
+}
+.hero-primary.bg-image > img {
+    opacity: 0.50;
+}
+.hero-body {
+    position: relative;
+}
+.hero-featured{
+     margin-top: 20px;
+     margin-left: 15px;
+     margin-right: 15px;
+     .read-link{
+         color: $link-color;
+         text-decoration: underline;
+     }
+}
+.hero-secondary{
+    background-color: #594a42;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.fa-star{
+    padding-right:1%;
+    color:#ffffff;
+    margin-top: 40px;
+    text-shadow: 4px  4px 4px black;
+    opacity: 0.85;
+    
+}
+.hero-secondary.bg-image >img{
+    opacity:0.45;
+}
+.hero-testimonial{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 160%;
+  
+}
+@media(min-width:48em){
+    .hero-testimonial{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        line-height: 150%;
+    }
+    .fa-star{
+        margin-top: 60px;
+    }
+}

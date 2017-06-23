@@ -1,0 +1,19 @@
+/*Logo Modules*/
+.logo {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.logo-primary {
+    width: 63px;
+    height: 63px;
+    @include small-and-above{
+        width: auto;
+        height: 50px;
+        margin-right: auto;
+        margin-left: -10px;
+    }
+}
+.logo-primary img{
+   height: 100%;
+}

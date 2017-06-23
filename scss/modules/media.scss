@@ -1,0 +1,62 @@
+/*Media Object Module*/
+.media,.media-body{
+    overflow:hidden;   /* This will stop the media object's content from wrapping */
+}
+.media-item{
+    float:left;
+    margin-right: 10px;
+}
+.media-item i{
+    color: #594a42;
+    font-size:5em;
+    margin-top: 40px;   
+    margin-bottom: 40px;
+}
+
+.media-heading{
+    font-size:1.75em;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.media-btn{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.media-btn:hover{
+    color: $green;
+    border-color: $green;
+}
+.media-content{
+    line-height: 150%;
+}
+.media-featured{
+    margin-bottom: 40px;
+    position: relative;
+    img{
+        max-height: 204px;
+        width:100%;
+        
+    }
+    .image-1{ border-top: 4px solid $background-tertiary;}
+    .image-2{ border-top: 4px solid $background-primary;}
+    .image-3{ border-top: 4px solid $sand;}
+}
+.tag{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px 25px;
+    color:white;
+    font-size: 1.4em;
+}
+.tag-1{
+    background-color: $background-tertiary ;
+}
+.tag-2{
+    background-color: $background-primary;
+}
+.tag-3{
+    background-color: $sand;
+}

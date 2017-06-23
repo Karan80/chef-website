@@ -1,0 +1,33 @@
+/***************************
+****************************
+Theme Styles
+****************************
+***************************/
+.background-primary {
+  background: $background-primary; /*Orange*/
+}
+.background-secondary {
+  background: $background-secondary; /*Blue*/
+}
+.background-tertiary {
+  background: $background-tertiary; /*Green*/
+}
+.background-quaternary{
+    background: $background-quaternary;
+}
+.background-quinary{
+    background: $background-quinary;
+}
+.white-txt{
+    color: white;
+}
+
+
+/*Color List:
+- light blue = 00AEEF;
+- dark blue = 1C75BC
+- green = 8DC63F
+- dark green = 009444
+- orange = F7941E
+- dark orange = F15A29
+- brown = 594a42; */

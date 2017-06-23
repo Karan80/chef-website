@@ -1,0 +1,40 @@
+.frame {
+    overflow: hidden;
+}
+.frame-primary{
+    @include circle(200px);
+    margin: 25px auto 40px auto;
+    img {
+        width: 100%;
+    }
+    @include small-and-above{
+        @include circle(230px);
+        position: relative;
+        top: -30px;
+        margin: 0 auto 63px auto;
+    }
+    @include medium-and-above{
+        @include circle(355px);
+    }
+}
+
+.frame-title{
+    margin-top:40px;
+    margin-bottom: 11px;
+    font-size: 1.625em;
+    font-family: arial;
+    font-weight:bold;
+}
+
+.frame-content{
+    margin-top: 3px;
+    margin-bottom: 40px;
+    font-size: 1.200em;
+    font-weight: normal;
+    font-family: Arial;
+    text-align: center;
+    line-height: 150%;
+    @include small-and-above{
+        text-align: left;
+    }
+}

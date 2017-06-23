@@ -1,0 +1,25 @@
+/*Header Modules*/
+.header-primary{
+    background: #9B8579;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    @include small-and-above{
+        position: absolute;
+        z-index: 99;
+        background: none;
+        width:100%;
+        &:after {
+                content: "";
+                display: table;
+                clear: both;
+        }
+        .container{
+            @include flexbox-display();
+        }
+    }
+}
+
+.fa-bars{
+    color: #ffffff;
+}
